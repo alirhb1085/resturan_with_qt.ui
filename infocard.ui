@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>infocard</class>
+ <widget class="QWidget" name="infocard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>671</width>
+    <height>189</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>671</width>
+    <height>189</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>671</width>
+    <height>189</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/Images/clipboard.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Order</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>20</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton {
+	image: url(:/new/prefix1/Images/show.png);
+    background: #d7e4f4; /* رنگ دکمه در حالت عادی (sabz) */
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: none;
+}
+
+
+QPushButton:hover {
+	image: url(:/new/prefix1/Images/show.png);
+    background: #b2bdca; /* رنگ کمی تنهاتر یا روشن‌تر می‌شود */
+}
+
+
+QPushButton:pressed {
+image: url(:/new/prefix1/Images/show.png);
+    background: #8f98a2; 
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>631</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/* تنظیمات بدنه اصلی و پس‌زمینه پروگرس بار */
+QProgressBar {
+    border-radius: 20px;             /* میزان گرد شدن لبه‌ها */
+    background-color: #E0E6ED;       /* رنگ بخش خالی بار */
+    text-align: center;              /* وسط‌چین کردن متن درصد */
+    font-weight: bold;               /* ضخیم کردن فونت درصد */
+    color: #333333;                  /* رنگ متن درصد */
+    height: 25px;                    /* ضخامت یا ارتفاع پروگرس بار */
+}
+
+/* تنظیمات بخش پر شده (نوار متحرک داخلی) */
+QProgressBar::chunk {
+    background-color: #2196F3;       /* رنگ نوار پر شده (آبی کلاسیک) */
+    border-radius: 10px;             /* گرد شدن لبه‌های نوار داخلی */
+    margin: 1px;                     /* ایجاد یک فاصله بسیار کم با لبه بیرونی برای زیبایی */
+}</string>
+   </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
+   <property name="value">
+    <number>25</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;
+background-color: rgb(189, 187, 164);
+color:black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

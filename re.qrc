@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Images/restaurant-login-bg@1.25x.jpg</file>
+        <file>Images/1779962176312.png</file>
+        <file>Images/person.png</file>
+        <file>Images/key.png</file>
+        <file>Images/home.png</file>
+        <file>Images/manager (1).png</file>
+        <file>Images/id-card.png</file>
+        <file>Images/lockreset.png</file>
+        <file>Images/Main-bg.jpg</file>
+        <file>Images/menu.png</file>
+        <file>Images/menu (1).png</file>
+        <file>Images/settings.png</file>
+        <file>Images/information.png</file>
+        <file>Images/editsquare.png</file>
+        <file>Images/homeapplogo.png</file>
+        <file>Images/menu (2).png</file>
+        <file>Images/multiple-users-silhouette.png</file>
+        <file>Images/show.png</file>
+        <file>Images/claudio-schwarz-4qJlXK4mYzU-unsplash.jpg</file>
+        <file>Images/fork-and-knife (1).png</file>
+        <file>Images/dollar (1).png</file>
+        <file>Images/star.png</file>
+        <file>Images/ivan-torres-MQUqbmszGGM-unsplash.jpg</file>
+        <file>Images/maryam-jahanmehr-7nC7_1oxbJI-unsplash.jpg</file>
+        <file>Images/dad-hotel-5Bof9geg6YQ-unsplash.jpg</file>
+        <file>Images/heart.png</file>
+        <file>Images/heart (1).png</file>
+        <file>Images/shopping-cart.png</file>
+        <file>Images/search.png</file>
+        <file>Images/groupadd.png</file>
+        <file>Images/deleteforever.png</file>
+        <file>Images/brett-jordan-aKYu-H5pHJY-unsplash.jpg</file>
+        <file>Images/tania-melnyczuk-xeTv9N2FjXA-unsplash (1).jpg</file>
+        <file>Images/pixzolo-photography-8YBHgP0WrEo-unsplash.jpg</file>
+        <file>Images/ivan-yerokhin-aJ8CYMhemc8-unsplash.jpg</file>
+        <file>Images/gift.png</file>
+        <file>Images/copy.png</file>
+        <file>Images/clipboard.png</file>
+        <file>Images/home (1).png</file>
+        <file>Images/home (1) (1).png</file>
+        <file>Images/star (3).png</file>
+        <file>Images/star (2).png</file>
+        <file>Images/star (4).png</file>
+        <file>Images/star (5).png</file>
+        <file>Images/static_emptyBasket.webp</file>
+        <file>Images/1781600638592.png</file>
+        <file>Images/1781600879937.png</file>
+        <file>Images/1781601156122.png</file>
+        <file>Images/ALI_project-cart.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
